@@ -1,0 +1,36 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "description": "Hollow Crown — a Zelda-inspired action RPG prototype (Phaser + React)",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production bun server.js",
+    "dev": "bun --watch server.js",
+    "assets": "bun tools/gen-assets.js",
+    "typecheck": "tsc --noEmit -p jsconfig.json",
+    "test": "echo \"Hello world\""
+  },
+  "keywords": [
+    "rpg",
+    "devx",
+    "class-room"
+  ],
+  "author": "graffiti_bebe25@yahoo.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "phaser": "^4.2.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/express": "^5.0.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}

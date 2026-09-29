@@ -1,0 +1,59 @@
+{
+  "character": {
+    "frameWidth": 56,
+    "frameHeight": 106,
+    "rows": {
+      "down": {
+        "start": 0,
+        "frames": 5
+      },
+      "left": {
+        "start": 5,
+        "frames": 5
+      },
+      "right": {
+        "start": 10,
+        "frames": 5
+      },
+      "up": {
+        "start": 15,
+        "frames": 5
+      }
+    }
+  },
+  "idle": {
+    "frameWidth": 52,
+    "frameHeight": 91,
+    "frames": 1
+  },
+  "walk": {
+    "frameWidth": 67,
+    "frameHeight": 87,
+    "frames": 3
+  },
+  "run": {
+    "frameWidth": 68,
+    "frameHeight": 86,
+    "frames": 2
+  },
+  "attack": {
+    "frameWidth": 135,
+    "frameHeight": 99,
+    "frames": 1
+  },
+  "hurt": {
+    "frameWidth": 61,
+    "frameHeight": 97,
+    "frames": 1
+  },
+  "jump": {
+    "frameWidth": 67,
+    "frameHeight": 94,
+    "frames": 1
+  },
+  "die": {
+    "frameWidth": 102,
+    "frameHeight": 42,
+    "frames": 1
+  }
+}

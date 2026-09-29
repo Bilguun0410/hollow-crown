@@ -1,0 +1,14 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# New > Blueprint in the Render dashboard, point it at this repo, and apply.
+services:
+  - type: web
+    name: hollow-crown
+    runtime: docker
+    plan: free # free instances sleep after ~15 min idle; use "starter" to stay awake
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
